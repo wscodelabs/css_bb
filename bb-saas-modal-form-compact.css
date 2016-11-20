@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+/*
+////////////////////////////////////
+BOUNCE BUCKET COMPACT FORM CSS
+////////////////////////////////////
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Quattrocento:400,700);
+
+@media only screen and (min-width : 320px) {
+.bb-saas-modal {
+	color: #444444;
+	background-color:rgba(0,0,0,0.50);
+	font-weight:300;
+	font-family: 'Quattrocento', serif;
+	line-height:26px;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.bb-saas-modal-dialog-full {
+	width: 70% !important;
+	height: 60% !important;
+}
+.bb-saas-modal-content {
+	height:425px;
+}
+.bb-saas-modal-content-full {
+	border:solid 5px rgba(230,230,230,1.00);
+	border-radius: 0 !important;
+	overflow: auto !important;
+
+}
+.bb-saas-modal-close-full {
+	position: absolute;
+	right: 20px;
+}
+.bb-saas-exit-pop-line-1 {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 2%;
+}
+.bb-saas-exit-pop-line-2 {
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight:700;
+}
+.bb-saas-exit-pop-line-3 {
+	font-size: 14px;
+	text-align: center;
+}
+.bb-saas-exit-pop-line-4 {
+	font-size: 10px;
+	text-align: center;
+}
+.bb-saas-exit-pop-form {
+	margin:20px 0 0 0;
+}
+.bb-saas-huge-input {
+	height: 50px;
+	padding: 10px;
+	color: #333333;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,0.80);
+	border: thin;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 3px;
+}
+.bb-saas-modal-btn-set {
+	font-family: 'Oswald', sans-serif;
+}
+.bb-saas-huge-btn {
+	height: 50px;
+	padding: 10px;
+	font-size: 20px;
+}
+.bb-saas-xhuge-btn {
+	height: 125px;
+	margin-right: 50px;
+	margin-bottom: 15px;
+	border-width: 7px;
+	border-style: solid;
+}
+.bb-saas-xhuge-btn-empty {
+	margin-right: 50px;
+	background-color: rgba(255,255,255,0.10);
+	border:solid;
+	border-color: #ffffff;
+}
+#bb-saas-full-exit-pop-1-btn-yes {
+	font-size:70px;
+	margin-top:-10px;
+	margin-bottom:-15px;
+}
+#bb-saas-full-exit-pop-1-btn-yes-desc {
+	font-size:14px;
+}
+#bb-saas-full-exit-pop-1-btn-no {
+	font-size:70px;
+	margin-top:-10px;
+	margin-bottom:-15px;
+	font-family: 'Oswald', sans-serif;
+}
+#bb-saas-full-exit-pop-1-btn-no-desc {
+	font-size:14px;
+	font-family: 'Oswald', sans-serif;
+}
+.bb-saas-modal-footer {
+	text-align: center;
+	color: #ffffff;
+	margin-top: 35px;
+}
+.bb-saas-exit-pop-disclosure {
+	font-size: 12px !important;
+	margin-top: 40px;
+	line-height:18px;
+}
+}
+
+/* iPhoen 6 */
+@media only screen and (min-width : 375px) {
+.bb-saas-modal {
+	line-height:55px;
+}
+.bb-saas-modal-dialog-full {
+	width: 95% !important;
+}
+.bb-saas-modal-content {
+	height:550px;
+}
+.bb-saas-exit-pop-line-1 {
+	font-size: 28px;
+}
+.bb-saas-exit-pop-line-2 {
+	font-size: 60px;
+}
+.bb-saas-exit-pop-line-3 {
+	font-size: 28px;
+	margin-bottom:-10px;
+}
+.bb-saas-exit-pop-line-4 {
+	font-size: 16px;
+}
+}
+
+/* iPhoen 6 Landscape */
+@media only screen and (min-width : 667px) {
+.bb-saas-modal {
+	line-height:50px;
+}
+.bb-saas-modal-dialog-full {
+	width: 97%;
+}
+.bb-saas-modal-content {
+	height:525px;
+}
+.bb-saas-exit-pop-line-1 {
+	font-size: 26px;
+}
+.bb-saas-exit-pop-line-2 {
+	font-size: 60px;
+}
+.bb-saas-exit-pop-line-3 {
+	font-size: 26px;
+	margin-bottom:-15px
+}
+.bb-saas-exit-pop-line-4 {
+	font-size: 14px;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.bb-saas-modal {
+	line-height:50px;
+
+}
+.bb-saas-modal-dialog-full {
+	margin-top:100px;
+	width: 60% !important;
+	padding:25px;
+}
+.bb-saas-modal-content {
+	height:475px;
+}
+.bb-saas-exit-pop-line-1 {
+	font-size: 28px;
+}
+.bb-saas-exit-pop-line-2 {
+	font-size: 60px;
+}
+.bb-saas-exit-pop-line-3 {
+	font-size: 28px;
+	margin-bottom:-20px;
+}
+.bb-saas-exit-pop-line-4 {
+	font-size: 14px;
+}
+.bb-saas-modal-btn-set {
+	margin-top:25px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.bb-saas-modal {
+	line-height:60px;
+}
+.bb-saas-exit-pop-line-1 {
+	font-size: 32px;
+}
+.bb-saas-exit-pop-line-2 {
+	font-size: 70px;
+}
+.bb-saas-exit-pop-line-3 {
+	font-size: 2832om:-20px;
+}
+.bb-saas-exit-pop-line-4 {
+	font-size: 14px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}

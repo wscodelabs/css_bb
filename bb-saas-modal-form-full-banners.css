@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/*
+//////////////////////////////////////
+BOUNCE BUCKETCSS FOR MODAL POP UP FORM
+//////////////////////////////////////
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Quattrocento:400,700);
+
+@media only screen and (min-width : 320px) {
+.bb-saas-modal {
+	opacity: 0.99;
+	color: #444444;
+	font-weight:300;
+	animation-duration:10ms;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	z-index:999999999;
+}
+.bb-saas-modal-dialog-full {
+	width: 100% !important;
+	height: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.bb-saas-modal-content-full {
+	height: 100% !important;
+	border-radius: 0 !important;
+	overflow: auto !important;
+
+}
+.bb-saas-modal-close-full {
+	position: absolute;
+	right: 20px;
+}
+.bb-saas-modal-form-line-1 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom:-10px
+}
+.bb-saas-modal-form-line-2 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight:700;
+	margin-bottom:-10px
+}
+.bb-saas-modal-form-line-3 {
+	font-size: 22px;
+	text-align: center;
+}
+
+.bb-saas-huge-input {
+	font-family: 'Quattrocento', serif;
+height: 75px;
+padding: 10px;
+color: #444444;
+font-size: 42px;
+margin-bottom: 15px;
+background-color: rgba(255, 255, 255, 0.80);
+border-radius: 3px;
+border: 1px solid transparent;
+border-top: none;
+border-bottom: 1px solid #DDD;
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, .39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+.bb-saas-huge-btn {
+	height: 80px;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 40px;
+}
+
+.bb-saas-modal-form-disclosure {
+	font-size: 12px !important;
+	margin-top: 30px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+.bb-saas-modal-form-line-1 {
+	font-size: 28px;
+	text-align: center;
+}
+.bb-saas-modal-form-line-2 {
+	font-size: 60px;
+	text-align: center;
+}
+.bb-saas-modal-form-line-3 {
+	font-size: 28px;
+	text-align: center;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.bb-saas-modal-form-inputs {
+	margin:45px 0 25px 0;
+}
+.bb-saas-modal-form-line-1 {
+	font-size: 40px;
+	margin-top: 3%
+}
+.bb-saas-modal-form-line-2 {
+	font-size: 90px;
+	margin-top: -20px
+}
+.bb-saas-modal-form-line-3 {
+	font-size: 40px;
+	margin-top: -20px
+}
+.bb-saas-modal-btn-submit {
+	margin-top:45px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+.bb-saas-modal-form-line-1 {
+	font-size: 40px;
+}
+.bb-saas-modal-form-line-2 {
+	font-size: 120px;
+}
+.bb-saas-modal-form-line-3 {
+	font-size: 40px;
+}
+}

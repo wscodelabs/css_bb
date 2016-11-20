@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*
+//////////////////////////////////////
+BOUNCE BUCKET THEME - BLUE
+//////////////////////////////////////
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Oswald:400,300,700|Quattrocento:400,700);
+
+.bb-saas-banner {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.2s ease-in-out;
+}
+.bb-saas-banner:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.bb-saas-modal-content {
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #cccccc 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #cccccc 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #ffffff 0%, #cccccc 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+.bb-saas-banner {
+	background-color: #FFFFFF;
+	color: #444444;
+}
+.bb-saas-modal-form-line-1, .bb-saas-banner-txt-1 {
+	font-family: 'Quattrocento', serif;
+}
+.bb-saas-modal-form-line-2, .bb-saas-banner-txt-2 {
+	font-family: 'Oswald', sans-serif;
+	color: #00478A;
+}
+.bb-saas-modal-form-line-3, .bb-saas-banner-txt-3 {
+	font-family: 'Quattrocento', serif;
+}
+.bb-saas-modal-form-line-4, .bb-saas-banner-txt-4 {
+	font-family: 'Quattrocento', serif;
+}
+.bb-saas-form-control {
+	font-family: 'Quattrocento', serif;
+}
+#bb-saas-full-modal-form-btn-1, .bb-saas-banner-btn, .bb-saas-modal-btn-submit {
+	background-color: #00478A;
+	border:thick solid;
+	border-color:#0D82DF;
+	color:#ffffff;
+	font-size:30px;
+	border-radius:2px;
+	font-family: 'Oswald', sans-serif;
+}
+#bb-saas-full-modal-form-btn-1:hover, .bb-saas-banner-btn:hover, .bb-saas-modal-btn-submit:hover {
+	background-color: #0D82DF;
+	color:#ffffff;
+}
+#bb-saas-full-modal-form-btn-1:active, .bb-saas-banner-btn:active, .bb-saas-modal-btn-submit:active {
+	background-color: #0D82DF;
+	color:#ffffff;
+}
+#bb-saas-full-modal-form-btn-1:focus, .bb-saas-banner-btn:focus, .bb-saas-modal-btn-submit:focus {
+	background-color: #0D82DF;
+	color:#ffffff;
+}
+#bb-saas-full-modal-form-btn-2 {
+}
