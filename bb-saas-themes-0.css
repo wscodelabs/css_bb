@@ -39,20 +39,20 @@
 	color: #444444;
 }
 .bb-saas-modal-form-line-1, .bb-saas-banner-txt-1 {
-	font-family: 'Quattrocento', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .bb-saas-modal-form-line-2, .bb-saas-banner-txt-2 {
 	font-family: 'Oswald', sans-serif;
 	color: #D3071C;
 }
 .bb-saas-modal-form-line-3, .bb-saas-banner-txt-3 {
-	font-family: 'Quattrocento', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .bb-saas-modal-form-line-4, .bb-saas-banner-txt-4 {
-	font-family: 'Quattrocento', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .bb-saas-form-control {
-	font-family: 'Quattrocento', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .bb-saas-form-control:focus {
 	border-color:transparent;
