@@ -4,17 +4,17 @@
 
 /*GLOBAL THEMES*/
 
-.bb-saas-banner {
+.bb-saas-banner, .aiq-footbar {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	transition: all 0.2s ease-in-out;
 }
-.bb-saas-banner:hover {
+.bb-saas-banner:hover, .aiq-footbar:hover {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /*END GLOBAL THEMES*/
 
-.bb-saas-banner, .bb-saas-modal-content {
+.bb-saas-banner, .bb-saas-modal-content, .aiq-footbar {
 	background-color: #555555;
 	color: #fff;
 }
@@ -24,7 +24,7 @@
 .bb-saas-modal-form-line-1, .bb-saas-banner-txt-1, .bb-saas-modal-form-line-3, .bb-saas-banner-txt-3, .bb-saas-modal-form-line-4, .bb-saas-banner-txt-4, .bb-saas-form-control  {
 	font-family: 'Open Sans', sans-serif;
 }
-.bb-saas-modal-form-line-2, .bb-saas-banner-txt-2, #bb-saas-full-modal-form-btn-1, .bb-saas-banner-btn, .bb-saas-modal-btn-submit {
+.bb-saas-modal-form-line-2, .bb-saas-banner-txt-2, #bb-saas-full-modal-form-btn-1, .bb-saas-banner-btn, .bb-saas-modal-btn-submit, .aiq-footbar-txt-2 {
 	font-family: 'Oswald', sans-serif;
 }
 .bb-saas-form-control {
@@ -33,21 +33,21 @@
 .bb-saas-form-control:focus {
 	border-color:transparent;
 }
-#bb-saas-full-modal-form-btn-1, .bb-saas-banner-btn, .bb-saas-modal-btn-submit {
+#bb-saas-full-modal-form-btn-1, .bb-saas-banner-btn, .bb-saas-modal-btn-submit, .aiq-footbar-btn {
 	background-color: #e67700;
 	color:#ffffff;
 	border-radius:2px;
 	font-family: 'Oswald', sans-serif;
 }
-#bb-saas-full-modal-form-btn-1:hover, .bb-saas-banner-btn:hover, .bb-saas-modal-btn-submit:hover {
+#bb-saas-full-modal-form-btn-1:hover, .bb-saas-banner-btn:hover, .bb-saas-modal-btn-submit:hover, .aiq-footbar-btn:hover {
 	background-color: #f59f00;
 	color:#ffffff;
 }
-#bb-saas-full-modal-form-btn-1:active, .bb-saas-banner-btn:active, .bb-saas-modal-btn-submit:active {
+#bb-saas-full-modal-form-btn-1:active, .bb-saas-banner-btn:active, .bb-saas-modal-btn-submit:active, .aiq-footbar-btn:active {
 	background-color: #f59f00;
 	color:#ffffff;
 }
-#bb-saas-full-modal-form-btn-1:focus, .bb-saas-banner-btn:focus, .bb-saas-modal-btn-submit:focus {
+#bb-saas-full-modal-form-btn-1:focus, .bb-saas-banner-btn:focus, .bb-saas-modal-btn-submit:focus, .aiq-footbar-btn:focus {
 	background-color: #f59f00;
 	color:#ffffff;
 }
