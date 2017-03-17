@@ -20,11 +20,11 @@
 /*END GLOBAL THEMES*/
 
 .bb-saas-banner, .bb-saas-modal-content, .aiq-footbar {
-	background-color: #555555;
-	color: #fff;
+	background-color: #fdfdfd;
+	color: #333;
 }
 .bb-saas-modal-form-line-1, .bb-saas-banner-txt-1, .bb-saas-modal-form-line-2, .bb-saas-banner-txt-2, .bb-saas-modal-form-line-3, .bb-saas-banner-txt-3, .bb-saas-modal-form-line-4, .bb-saas-banner-txt-4, .bb-saas-btn {
-	color: #ffffff;
+	color: #333;
 }
 .bb-saas-modal-form-line-1, .bb-saas-banner-txt-1, .bb-saas-modal-form-line-3, .bb-saas-banner-txt-3, .bb-saas-modal-form-line-4, .bb-saas-banner-txt-4, .bb-saas-form-control  {
 	font-family: 'Open Sans', sans-serif;
