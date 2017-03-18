@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #bb-saas-banner-970x260, #bb-saas-banner-728x90, #bb-saas-banner-160x600, #bb-saas-banner-468x60, #bb-saas-banner-336x280 {
-	background-image: url(/img/test-widget-bg.png);
+	background-image: url(https://s3.us-east-2.amazonaws.com/aiq-app-assets/cdn/img/bg/aiq-widget-bg-1.png);
 	background-repeat: no-repeat;
 }
 
