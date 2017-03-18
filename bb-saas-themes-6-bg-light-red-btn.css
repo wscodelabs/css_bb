@@ -39,21 +39,21 @@
 	border-color:transparent;
 }
 #bb-saas-full-modal-form-btn-1, .bb-saas-banner-btn, .bb-saas-modal-btn-submit, .aiq-footbar-btn {
-	background-color: #c92a2a;
+	background-color: #c00;
 	color:#ffffff;
 	border-radius:2px;
 	font-family: 'Oswald', sans-serif;
 }
 #bb-saas-full-modal-form-btn-1:hover, .bb-saas-banner-btn:hover, .bb-saas-modal-btn-submit:hover, .aiq-footbar-btn:hover {
-	background-color: #f03e3e;
+	background-color: #900;
 	color:#ffffff;
 }
 #bb-saas-full-modal-form-btn-1:active, .bb-saas-banner-btn:active, .bb-saas-modal-btn-submit:active, .aiq-footbar-btn:active {
-	background-color: #f03e3e;
+	background-color: #900;
 	color:#ffffff;
 }
 #bb-saas-full-modal-form-btn-1:focus, .bb-saas-banner-btn:focus, .bb-saas-modal-btn-submit:focus, .aiq-footbar-btn:focus {
-	background-color: #f03e3e;
+	background-color: #900;
 	color:#ffffff;
 }
 #bb-saas-full-modal-form-btn-2 {
