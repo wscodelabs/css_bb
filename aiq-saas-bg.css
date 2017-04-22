@@ -1,32 +1,35 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#bb-saas-banner-970x260, #bb-saas-banner-728x90, #bb-saas-banner-160x600, #bb-saas-banner-468x60, #bb-saas-banner-336x280 {
+#bb-saas-banner-970x260, #bb-saas-banner-728x90, #bb-saas-banner-160x600, #bb-saas-banner-468x60, #bb-saas-banner-336x280, .bb-landing-page-vehicle, .bb-landing-page-vehicle {
 	background-image: url(https://s3.us-east-2.amazonaws.com/aiq-app-assets/cdn/img/bg/aiq-widget-bg-1.png);
 	background-repeat: no-repeat;
 }
-
 #bb-saas-banner-970x260 {
-	background-size:675px auto;
+	background-size: 675px auto;
 	background-position: 95%;
 }
-
 #bb-saas-banner-728x90 {
 	background-size: 600px auto;
 	background-position: 50%;
 }
-
 #bb-saas-banner-160x600 {
 	background-size: 600px auto;
 	background-position: center;
 }
-
 #bb-saas-banner-468x60 {
 	background-size: 350px auto;
 	background-position: 50%;
 }
-
 #bb-saas-banner-336x280 {
 	background-size: 400px auto;
-	background-position: -40 40px;
+	background-position: 50%;
+}
+.bb-landing-page-vehicle {
+	background-size:65%;
+	background-position: -20% 25%;
+}
+.bb-specials-vehicle {
+	background-size:65%;
+	background-position: 105% 35%;
 }
