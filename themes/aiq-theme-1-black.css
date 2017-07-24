@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*Widget Elements*/
+.theme-1-black .aiq-landing, .theme-1-black .aiq-banner, .theme-1-black .aiq-overlay, .theme-1-black .aiq-form, .theme-1-black .aiq-takeover {
+background-color: #fdfdfd !important;
+}
+
+/*Text elements */
+.theme-1-black .aiq-landing-txt-1, .theme-1-black .aiq-banner-txt-1, .theme-1-black .aiq-overlay-txt-1, .theme-1-black .aiq-form-txt-1 {
+  color: #333 !important;
+}
+.theme-1-black .aiq-landing-txt-2, .theme-1-black .aiq-banner-txt-2, .theme-1-black .aiq-overlay-txt-2, .theme-1-black .aiq-form-txt-2 {
+  color: #222 !important;
+  text-shadow: 10px 1px 10px #fff, 10px 1px 10px #fff !important;
+}
+.theme-1-black .aiq-landing-txt-3, .theme-1-black .aiq-banner-txt-3, .theme-1-black .aiq-overlay-txt-3, .theme-1-black .aiq-form-txt-3 {
+  color: #333 !important;
+}
+.theme-1-black .aiq-landing-txt-4, .theme-1-black .aiq-banner-txt-4, .theme-1-black .aiq-overlay-txt-4, .theme-1-black .aiq-form-txt-4 {
+  color: #333 !important;
+}
+.theme-1-black .aiq-disclaimer, .theme-1-black .aiq-description {
+  color: #333 !important;
+}
+
+/*Button elements */
+.theme-1-black .aiq-widget-button {
+  background-color: #222 !important;
+  color: #ffffff !important;
+  border-radius: 2px !important;
+}
+.theme-1-black .aiq-widget-button:hover{
+  background-color: #444 !important;
+  color: #ffffff !important;
+}
+.theme-1-black .aiq-widget-button:active{
+  background-color: #444 !important;
+  color: #ffffff !important;
+}
+.theme-1-black .aiq-widget-button:focus{
+  background-color: #444 !important;
+  color: #ffffff !important;
+}
+
+/* Background elements*/
+.theme-1-black .aiq-banner, .theme-1-black .aiq-landing, .theme-1-black .aiq-specials {
+	background-image: url(https://s3.us-east-2.amazonaws.com/aiq-app-assets/cdn/widgets/img/bg/aiq-widget-bg-1.png);
+	background-repeat: no-repeat;
+}
+.theme-1-black .aiq-banner-970x260 {
+	background-size: 675px auto;
+	background-position: 95%;
+}
+.theme-1-black .aiq-banner-728x90 {
+	background-size: 600px auto;
+	background-position: 50%;
+}
+.theme-1-black .aiq-banner-160x600 {
+	background-size: 600px auto;
+	background-position: center;
+}
+.theme-1-black .aiq-banner-468x60 {
+	background-size: 350px auto;
+	background-position: 50%;
+}
+.theme-1-black .aiq-banner-336x280 {
+	background-size: 400px auto;
+	background-position: 50%;
+}
+.theme-1-black .aiq-landing {
+	background-size:65%;
+	background-position: -20% 25%;
+}
+.theme-1-black .aiq-specials {
+	background-size:65%;
+	background-position: 105% 35%;
+}

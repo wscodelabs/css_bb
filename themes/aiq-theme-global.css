@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*Global elements used for all banners, overlays and landing pages*/
+
+.aiq-banner, .aiq-footbar {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.10), 0 1px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.aiq-banner:hover, .aiq-footbar:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.10), 0 3px 3px rgba(0, 0, 0, 0.20);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.10), 0 3px 3px rgba(0, 0, 0, 0.20);
+}
+
+.bb-saas-form-control:focus {
+  border-color: transparent !important;
+}
+/*End Global elements */
